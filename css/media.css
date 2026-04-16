@@ -1,0 +1,109 @@
+/* 1200 */
+@media(max-width: 1200px) {
+    .the-title .title{
+        font-size: 100px;
+    }
+    
+    .main{
+        padding-top: 50px;
+    }
+    
+    .courses .item{
+        height: 300px;
+    }
+}
+
+/* 991 */
+@media(max-width: 991px){
+    .the-title .title{
+        font-size: 80px;
+    }
+    
+    .header .burger{
+        display: block;
+    }
+    
+    .header .menu{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 280px;
+        height: 100vh;
+        background: rgb(0, 29, 29);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 20px 0;
+        gap: 35px 0;
+        transition: 0.5s;
+    }
+    
+    .header .menu.active{
+        left: 0;
+    }
+    
+    .main{
+        padding-top: 200px;
+    }
+}
+
+/* 768 */
+@media(max-width: 768px){
+    .the-title .title{
+        font-size: 50px;
+    }
+    
+    .courses-modal{
+        overflow-y: scroll;
+        padding: 20px;
+    }
+    
+    .courses-modal .modal-window .title{
+        font-size: 25px;
+    }
+    .courses-modal .modal-window .text{
+        font-size: 16px;
+    }
+}
+
+/* 575 */
+@media(max-width: 575px) {
+    .the-title .title{
+        font-size: 30px;
+        -webkit-text-stroke: 1px var(--main-color);
+    }
+    
+    .main .title{
+        font-size: 40px;
+    }
+    
+    .about .acardion{
+        margin-top: 25px;
+    }
+    
+    .about .acardion-item .title{
+        font-size: 20px;
+    }
+    .about .acardion-item .text{
+        font-size: 16px;
+    }
+    
+    .contacts .map{
+        margin-top: 50px;
+    }
+    
+    .contacts .info .link i{
+        font-size: 20px;
+    }
+    .contacts .info .link span{
+        font-size: 20px;
+    }
+    
+    .copyright{
+        margin-top: 0;
+    }
+    
+    #to-top{
+        right: 15px;
+        bottom: 25px;
+    }
+}
